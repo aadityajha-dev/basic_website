@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    color: whitesmoke;
+    background-color: green;
+    justify-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main-content {
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    height: calc(100vh - 150px);
+}
+
+.main-content {
+    flex: 1;
+    max-width: 50%;
+}
+
+.username{
+    font-size: 1.5rem;
+}
+.email{
+    font-size: 1.5rem;
+}
+.m-number{
+    font-size: 1.5rem;
+}
+.password{
+    font-size: 1.5rem;
+}
+.gender{
+    font-size: 1.5rem;
+}
